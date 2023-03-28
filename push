@@ -1,0 +1,6 @@
+#!/bin/bash 
+chmod u+x .
+git add .
+read -p "Ënter you commit message: " data
+git commit -m "$data"
+git push 
